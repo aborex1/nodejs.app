@@ -1,4 +1,4 @@
-Xnode {
+node {
     checkout scm
 
     docker.withRegistry('https://github.com/aborex1/nodejs.app.git', 'dockerhub') {
